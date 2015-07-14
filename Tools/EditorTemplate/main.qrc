@@ -1,0 +1,35 @@
+<RCC>
+  <qresource prefix="main">
+    <file>icon/iconRotate.png</file>
+    <file>icon/iconAddition.png</file>
+    <file>icon/iconAdjustSize.png</file>
+    <file>icon/iconApplation.png</file>
+    <file>icon/iconArrow.png</file>
+    <file>icon/iconComponentMovieCutting.png</file>
+    <file>icon/iconControlNextFrame.png</file>
+    <file>icon/iconControlPause.png</file>
+    <file>icon/iconControlPrevious.png</file>
+    <file>icon/iconControlStart.png</file>
+    <file>icon/iconCreateRect.png</file>
+    <file>icon/iconDelete.png</file>
+    <file>icon/iconDirClose.png</file>
+    <file>icon/iconDirOpen.png</file>
+    <file>icon/iconFileNew.png</file>
+    <file>icon/iconFileOpen.png</file>
+    <file>icon/iconFind.png</file>
+    <file>icon/iconGotoHead.png</file>
+    <file>icon/iconHideTimeLine.png</file>
+    <file>icon/iconLayerCreate.png</file>
+    <file>icon/iconLayerDelete.png</file>
+    <file>icon/iconMousePosition.png</file>
+    <file>icon/iconPack.png</file>
+    <file>icon/iconPipette.png</file>
+    <file>icon/iconPipetteS.png</file>
+    <file>icon/iconQuestion.png</file>
+    <file>icon/iconReDo.png</file>
+    <file>icon/iconSubtract.png</file>
+    <file>icon/iconUnDo.png</file>
+    <file>icon/iconVSplit.png</file>
+    <file>icon/incoFileSave.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{e08b1f66-cfaa-4ff8-987e-0b7366e8795a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Fish">
+      <UniqueIdentifier>{7ec97a5d-76f9-4eac-8453-032c1dad4101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Bullet">
+      <UniqueIdentifier>{5894cd13-e153-4a6c-adf1-6de40d9f0b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Static">
+      <UniqueIdentifier>{c61153cd-1029-42ba-95b2-1d39958e4adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\GoldCoin">
+      <UniqueIdentifier>{efcebfe5-80f3-4cad-8304-39829bfe434e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Player">
+      <UniqueIdentifier>{4ace4934-0a53-4e35-a186-e68136fb90d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Background">
+      <UniqueIdentifier>{060e9d8c-80e7-428e-b389-66d2333121b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\BounadryScreen">
+      <UniqueIdentifier>{dca00ca8-51b9-415d-b03f-ec7371d840de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Effect">
+      <UniqueIdentifier>{2c649d79-e45a-4422-8f0b-a776191fce0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\Bomb">
+      <UniqueIdentifier>{2d7038f6-801e-48b1-8c49-825755fb2dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\AutoLockTarget">
+      <UniqueIdentifier>{1aa37073-6567-400c-bdac-b7902902a49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBaseLogic">
+      <UniqueIdentifier>{01c0ede7-5c97-4d13-88e8-e76caa8582a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackStageUI">
+      <UniqueIdentifier>{af6e2a46-fc2e-497d-bc46-60163121ac6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActorGenerator">
+      <UniqueIdentifier>{ae5e8651-eec3-4dd6-8c58-f088d7bd941a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation2D">
+      <UniqueIdentifier>{34cecc6b-5b4b-4baa-8a10-52641888d88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActorParallelGenerator">
+      <UniqueIdentifier>{42c6938d-e0b8-4398-bc0e-3193e21fca83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameBackLogic">
+      <UniqueIdentifier>{3c96d065-4078-42d6-a6c2-59346685f4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActorComplexGenerator">
+      <UniqueIdentifier>{bdce150b-b8fc-49db-9cec-19340e19b083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionFishDied.cpp">
+      <Filter>Actor\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionFishHurt.cpp">
+      <Filter>Actor\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionFishMove.cpp">
+      <Filter>Actor\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorFish.cpp">
+      <Filter>Actor\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalActorFish.cpp">
+      <Filter>Actor\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBulletAttack.cpp">
+      <Filter>Actor\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBulletFly.cpp">
+      <Filter>Actor\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBullet.cpp">
+      <Filter>Actor\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionStaticStand.cpp">
+      <Filter>Actor\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorStatic.cpp">
+      <Filter>Actor\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionGoldCoinGet.cpp">
+      <Filter>Actor\GoldCoin</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorGoldCoin.cpp">
+      <Filter>Actor\GoldCoin</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlayerAutoFire.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlayerCommonGunLV1.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlayerCommonGunLV2.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlayerFireLV1.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlayerFireLV2.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPlayerNormalFire.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorPlayer.cpp">
+      <Filter>Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionScreenAnimClose.cpp">
+      <Filter>Actor\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionScreenAnimIdle.cpp">
+      <Filter>Actor\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionScreenAnimOpen.cpp">
+      <Filter>Actor\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionScreenAnimWait.cpp">
+      <Filter>Actor\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBackground.cpp">
+      <Filter>Actor\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBoundary.cpp">
+      <Filter>Actor\BounadryScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBoundaryScreen.cpp">
+      <Filter>Actor\BounadryScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEffectUpdate.cpp">
+      <Filter>Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorEffect.cpp">
+      <Filter>Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEnergyBmobAttack.cpp">
+      <Filter>Actor\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEnergyBmobFly.cpp">
+      <Filter>Actor\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEnergyBmobIdle.cpp">
+      <Filter>Actor\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEnergyBmobStop.cpp">
+      <Filter>Actor\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorEnergyBmob.cpp">
+      <Filter>Actor\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionAutoLockTarget.cpp">
+      <Filter>Actor\AutoLockTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorAutoLockTarget.cpp">
+      <Filter>Actor\AutoLockTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>DataBaseLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSql.cpp">
+      <Filter>DataBaseLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckAccountPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DeCodeAdjustPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutCoinsTestPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyTestPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTestPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerUI.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamSettingPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PostMoneyPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemSettingPage.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIState.cpp">
+      <Filter>BackStageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorGeneratorDefault.cpp">
+      <Filter>ActorGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Naviagtion2DRoundDiffuse.cpp">
+      <Filter>Navigation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Naviagtion2DSimpleDir.cpp">
+      <Filter>Navigation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation2DDefault.cpp">
+      <Filter>Navigation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation2DParallel.cpp">
+      <Filter>Navigation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation2DRandomChase.cpp">
+      <Filter>Navigation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorMixParallelGenerator.cpp">
+      <Filter>ActorParallelGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorParallelGenerator.cpp">
+      <Filter>ActorParallelGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBackParam.cpp">
+      <Filter>GameBackLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorGeneratorDiffuse.cpp">
+      <Filter>ActorComplexGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorGeneratorRandomChase.cpp">
+      <Filter>ActorComplexGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorGeneratorRoundDiffuse.cpp">
+      <Filter>ActorComplexGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameEnvironment.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionFishDied.h">
+      <Filter>Actor\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionFishHurt.h">
+      <Filter>Actor\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionFishMove.h">
+      <Filter>Actor\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorFish.h">
+      <Filter>Actor\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalActorFish.h">
+      <Filter>Actor\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBulletAttack.h">
+      <Filter>Actor\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBulletFly.h">
+      <Filter>Actor\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorBullet.h">
+      <Filter>Actor\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionStaticStand.h">
+      <Filter>Actor\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorStatic.h">
+      <Filter>Actor\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionGoldCoinGet.h">
+      <Filter>Actor\GoldCoin</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorGoldCoin.h">
+      <Filter>Actor\GoldCoin</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlayerAutoFire.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlayerCommonGunLV1.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlayerCommonGunLV2.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlayerFireLV1.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlayerFireLV2.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPlayerNormalFire.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorPlayer.h">
+      <Filter>Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionScreenAnimClose.h">
+      <Filter>Actor\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionScreenAnimIdle.h">
+      <Filter>Actor\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionScreenAnimOpen.h">
+      <Filter>Actor\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionScreenAnimWait.h">
+      <Filter>Actor\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorBackground.h">
+      <Filter>Actor\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBoundary.h">
+      <Filter>Actor\BounadryScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorBoundaryScreen.h">
+      <Filter>Actor\BounadryScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEffectUpdate.h">
+      <Filter>Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorEffect.h">
+      <Filter>Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEnergyBmobAttack.h">
+      <Filter>Actor\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEnergyBmobFly.h">
+      <Filter>Actor\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEnergyBmobIdle.h">
+      <Filter>Actor\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEnergyBmobStop.h">
+      <Filter>Actor\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorEnergyBmob.h">
+      <Filter>Actor\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAutoLockTarget.h">
+      <Filter>Actor\AutoLockTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorAutoLockTarget.h">
+      <Filter>Actor\AutoLockTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>DataBaseLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSql.h">
+      <Filter>DataBaseLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStructData.h">
+      <Filter>DataBaseLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckAccountPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DeCodeAdjustPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseUI.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="InOutCoinsTestPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyTestPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTestPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerUI.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamSettingPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PostMoneyPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemSettingPage.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIState.h">
+      <Filter>BackStageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorGeneratorDefault.h">
+      <Filter>ActorGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Naviagtion2DRoundDiffuse.h">
+      <Filter>Navigation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Naviagtion2DSimpleDir.h">
+      <Filter>Navigation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation2DDefault.h">
+      <Filter>Navigation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation2DParallel.h">
+      <Filter>Navigation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation2DRandomChase.h">
+      <Filter>Navigation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorMixParallelGenerator.h">
+      <Filter>ActorParallelGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorParallelGenerator.h">
+      <Filter>ActorParallelGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBackParam.h">
+      <Filter>GameBackLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorGeneratorDiffuse.h">
+      <Filter>ActorComplexGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorGeneratorRandomChase.h">
+      <Filter>ActorComplexGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorGeneratorRoundDiffuse.h">
+      <Filter>ActorComplexGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameEnvironment.h" />
+    <ClInclude Include="GameState.h" />
+  </ItemGroup>
+</Project>

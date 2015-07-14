@@ -1,0 +1,16 @@
+
+package Message;
+
+//	发炮键按下
+message	FireButtonDown
+{
+	optional int32		id	= 1;			//	座位号
+}
+
+//	发炮键弹起
+message FireButtonUp
+{
+	optional int32		id	= 1;			//	座位号
+}
+
+//	todo...

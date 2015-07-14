@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{fd54b7d8-3cce-4b2a-9073-df0f09b6798e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{af68926e-ef1b-4276-880e-a541b91a60a8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="QtTreePropertyBrowser">
+      <UniqueIdentifier>{5cc61191-28c7-4e43-9a49-23700d78eff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{953ed847-195e-4f23-979f-c2c2ae0f6f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChineseSuport">
+      <UniqueIdentifier>{2eb4510d-229e-4259-b923-0107a9919080}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_main.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Editor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtbuttonpropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qteditorfactory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtgroupboxpropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtpropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtpropertybrowserutils_p.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtpropertymanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qttreepropertybrowser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtvariantproperty.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UICanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WTextCodecPlugin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Editor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtbuttonpropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qteditorfactory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtgroupboxpropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtpropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtpropertybrowserutils_p.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtpropertymanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qttreepropertybrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtvariantproperty.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UICanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WTextCodecPlugin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="qtbuttonpropertybrowser.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qteditorfactory.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtgroupboxpropertybrowser.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowserutils.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertymanager.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qttreepropertybrowser.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtvariantproperty.cpp">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="UICanvas.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="qgb18030codec.cpp">
+      <Filter>ChineseSuport</Filter>
+    </ClCompile>
+    <ClCompile Include="WTextCodecPlugin.cpp">
+      <Filter>ChineseSuport</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_main.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qgb18030codec.h">
+      <Filter>ChineseSuport</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="main.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\qteditorfactory.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\qtpropertymanager.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\qttreepropertybrowser.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\qteditorfactory.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\qtpropertymanager.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\qttreepropertybrowser.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtbuttonpropertybrowser.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qteditorfactory.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtgroupboxpropertybrowser.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtpropertybrowser.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtpropertybrowserutils_p.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtpropertymanager.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qttreepropertybrowser.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qtvariantproperty.h">
+      <Filter>QtTreePropertyBrowser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UICanvas.h">
+      <Filter>Core</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WTextCodecPlugin.h">
+      <Filter>ChineseSuport</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Editor.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

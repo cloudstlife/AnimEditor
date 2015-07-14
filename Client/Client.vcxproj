@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC40ACE4-7BC7-4795-9F40-107C34D2AAAE}</ProjectGuid>
+    <RootNamespace>Hello</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\SDK\include;..\..\Dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;Common_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\Binaries\$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\SDK\lib\debug;..\..\Dependencies\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\SDK\include;..\..\Dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;Common.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\Binaries\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\SDK\lib\release;..\..\Dependencies\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionFishDied.cpp" />
+    <ClCompile Include="ActionFishHurt.cpp" />
+    <ClCompile Include="ActionFishMove.cpp" />
+    <ClCompile Include="ActorFish.cpp" />
+    <ClCompile Include="NormalActorFish.cpp" />
+    <ClCompile Include="ActionBulletAttack.cpp" />
+    <ClCompile Include="ActionBulletFly.cpp" />
+    <ClCompile Include="ActorBullet.cpp" />
+    <ClCompile Include="ActionStaticStand.cpp" />
+    <ClCompile Include="ActorStatic.cpp" />
+    <ClCompile Include="ActionGoldCoinGet.cpp" />
+    <ClCompile Include="ActorGoldCoin.cpp" />
+    <ClCompile Include="ActionPlayerAutoFire.cpp" />
+    <ClCompile Include="ActionPlayerCommonGunLV1.cpp" />
+    <ClCompile Include="ActionPlayerCommonGunLV2.cpp" />
+    <ClCompile Include="ActionPlayerFireLV1.cpp" />
+    <ClCompile Include="ActionPlayerFireLV2.cpp" />
+    <ClCompile Include="ActionPlayerNormalFire.cpp" />
+    <ClCompile Include="ActorPlayer.cpp" />
+    <ClCompile Include="ActionScreenAnimClose.cpp" />
+    <ClCompile Include="ActionScreenAnimIdle.cpp" />
+    <ClCompile Include="ActionScreenAnimOpen.cpp" />
+    <ClCompile Include="ActionScreenAnimWait.cpp" />
+    <ClCompile Include="ActorBackground.cpp" />
+    <ClCompile Include="ActionBoundary.cpp" />
+    <ClCompile Include="ActorBoundaryScreen.cpp" />
+    <ClCompile Include="ActionEffectUpdate.cpp" />
+    <ClCompile Include="ActorEffect.cpp" />
+    <ClCompile Include="ActionEnergyBmobAttack.cpp" />
+    <ClCompile Include="ActionEnergyBmobFly.cpp" />
+    <ClCompile Include="ActionEnergyBmobIdle.cpp" />
+    <ClCompile Include="ActionEnergyBmobStop.cpp" />
+    <ClCompile Include="ActorEnergyBmob.cpp" />
+    <ClCompile Include="ActionAutoLockTarget.cpp" />
+    <ClCompile Include="ActorAutoLockTarget.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="GameSql.cpp" />
+    <ClCompile Include="CheckAccountPage.cpp" />
+    <ClCompile Include="DeCodeAdjustPage.cpp" />
+    <ClCompile Include="InOutCoinsTestPage.cpp" />
+    <ClCompile Include="KeyTestPage.cpp" />
+    <ClCompile Include="LoginPage.cpp" />
+    <ClCompile Include="MainPage.cpp" />
+    <ClCompile Include="MainTestPage.cpp" />
+    <ClCompile Include="ManagerUI.cpp" />
+    <ClCompile Include="ParamSettingPage.cpp" />
+    <ClCompile Include="PostMoneyPage.cpp" />
+    <ClCompile Include="SystemSettingPage.cpp" />
+    <ClCompile Include="UIState.cpp" />
+    <ClCompile Include="ActorGeneratorDefault.cpp" />
+    <ClCompile Include="Naviagtion2DRoundDiffuse.cpp" />
+    <ClCompile Include="Naviagtion2DSimpleDir.cpp" />
+    <ClCompile Include="Navigation2DDefault.cpp" />
+    <ClCompile Include="Navigation2DParallel.cpp" />
+    <ClCompile Include="Navigation2DRandomChase.cpp" />
+    <ClCompile Include="ActorMixParallelGenerator.cpp" />
+    <ClCompile Include="ActorParallelGenerator.cpp" />
+    <ClCompile Include="GameBackParam.cpp" />
+    <ClCompile Include="ActorGeneratorDiffuse.cpp" />
+    <ClCompile Include="ActorGeneratorRandomChase.cpp" />
+    <ClCompile Include="ActorGeneratorRoundDiffuse.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameEnvironment.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionFishDied.h" />
+    <ClInclude Include="ActionFishHurt.h" />
+    <ClInclude Include="ActionFishMove.h" />
+    <ClInclude Include="ActorFish.h" />
+    <ClInclude Include="NormalActorFish.h" />
+    <ClInclude Include="ActionBulletAttack.h" />
+    <ClInclude Include="ActionBulletFly.h" />
+    <ClInclude Include="ActorBullet.h" />
+    <ClInclude Include="ActionStaticStand.h" />
+    <ClInclude Include="ActorStatic.h" />
+    <ClInclude Include="ActionGoldCoinGet.h" />
+    <ClInclude Include="ActorGoldCoin.h" />
+    <ClInclude Include="ActionPlayerAutoFire.h" />
+    <ClInclude Include="ActionPlayerCommonGunLV1.h" />
+    <ClInclude Include="ActionPlayerCommonGunLV2.h" />
+    <ClInclude Include="ActionPlayerFireLV1.h" />
+    <ClInclude Include="ActionPlayerFireLV2.h" />
+    <ClInclude Include="ActionPlayerNormalFire.h" />
+    <ClInclude Include="ActorPlayer.h" />
+    <ClInclude Include="ActionScreenAnimClose.h" />
+    <ClInclude Include="ActionScreenAnimIdle.h" />
+    <ClInclude Include="ActionScreenAnimOpen.h" />
+    <ClInclude Include="ActionScreenAnimWait.h" />
+    <ClInclude Include="ActorBackground.h" />
+    <ClInclude Include="ActionBoundary.h" />
+    <ClInclude Include="ActorBoundaryScreen.h" />
+    <ClInclude Include="ActionEffectUpdate.h" />
+    <ClInclude Include="ActorEffect.h" />
+    <ClInclude Include="ActionEnergyBmobAttack.h" />
+    <ClInclude Include="ActionEnergyBmobFly.h" />
+    <ClInclude Include="ActionEnergyBmobIdle.h" />
+    <ClInclude Include="ActionEnergyBmobStop.h" />
+    <ClInclude Include="ActorEnergyBmob.h" />
+    <ClInclude Include="ActionAutoLockTarget.h" />
+    <ClInclude Include="ActorAutoLockTarget.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="GameSql.h" />
+    <ClInclude Include="GameStructData.h" />
+    <ClInclude Include="CheckAccountPage.h" />
+    <ClInclude Include="DeCodeAdjustPage.h" />
+    <ClInclude Include="IBaseUI.h" />
+    <ClInclude Include="InOutCoinsTestPage.h" />
+    <ClInclude Include="KeyTestPage.h" />
+    <ClInclude Include="LoginPage.h" />
+    <ClInclude Include="MainPage.h" />
+    <ClInclude Include="MainTestPage.h" />
+    <ClInclude Include="ManagerUI.h" />
+    <ClInclude Include="ParamSettingPage.h" />
+    <ClInclude Include="PostMoneyPage.h" />
+    <ClInclude Include="SystemSettingPage.h" />
+    <ClInclude Include="UIState.h" />
+    <ClInclude Include="ActorGeneratorDefault.h" />
+    <ClInclude Include="Naviagtion2DRoundDiffuse.h" />
+    <ClInclude Include="Naviagtion2DSimpleDir.h" />
+    <ClInclude Include="Navigation2DDefault.h" />
+    <ClInclude Include="Navigation2DParallel.h" />
+    <ClInclude Include="Navigation2DRandomChase.h" />
+    <ClInclude Include="ActorMixParallelGenerator.h" />
+    <ClInclude Include="ActorParallelGenerator.h" />
+    <ClInclude Include="GameBackParam.h" />
+    <ClInclude Include="ActorGeneratorDiffuse.h" />
+    <ClInclude Include="ActorGeneratorRandomChase.h" />
+    <ClInclude Include="ActorGeneratorRoundDiffuse.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameEnvironment.h" />
+    <ClInclude Include="GameState.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
